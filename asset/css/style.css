@@ -1,0 +1,108 @@
+h1 {
+    margin-top: 10px;
+    font-family: 'Lobster', cursive;
+    text-shadow: 5px 0 #232931;
+    font-size: 5rem;
+    color: #4ECCA3;
+
+  }
+
+  .container {
+    width: 70%;
+    margin: auto;
+    text-align: center;
+  }
+
+  footer {
+    margin-top: 15%;
+    color: #049e84;
+    text-align: center;
+    font-family: 'Indie Flower', cursive;
+  
+  }
+  
+  
+  /* General Styles */
+body {
+    background-color: white;
+    font-family: Arial, sans-serif;
+    background-color: transparent;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Form Container */
+.form-container {
+    background-color: transparent;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
+    width: 500px;
+    margin-top: 100px;
+    margin-left: 250px;
+}
+
+/* Form Group */
+.form-group {
+    margin-bottom: 10px;
+}
+
+/* Inline Labels and Inputs */
+.form-group label {
+    display: inline-block;
+    width: 100px;
+    text-align: right;
+    margin-right: 10px;
+    font-weight: bolder;
+    font-size: large;
+}
+
+.form-group input {
+    display: inline-block;
+    width: calc(100% - 120px);
+    padding: 8px;
+    border: 2px solid #9ae2f8;
+    border-radius: 4px;
+    box-sizing: border-box;
+
+}
+
+/* Submit Button */
+button[type="submit"] {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bolder;
+   
+}
+a{
+    text-decoration: none;
+}
+
+/* Button Hover Effect */
+button[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+img{
+    padding: 55px;
+    width: 20%;
+    z-index: 2;
+}
+#result{
+    padding: 40px;
+    color: rgb(0, 0, 0);
+    font-family: cursive;
+    font-size: 3rem;
+    font-weight: bolder;
+}
