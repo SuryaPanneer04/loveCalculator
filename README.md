@@ -1,2 +1,2 @@
 # loveCalculator
-I'm currently learning JavaScript, and I created a love calculator project using HTML, CSS, and JavaScript.
+I'm currently learning in Html ,css and JavaScript, and I created a love calculator project .
